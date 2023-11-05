@@ -29,9 +29,26 @@ function Signup() {
                     name="email"
                     className="form-control rounded-0" />
                     </div>
-                    
+                    <div className="mb-3">
+                    <label htmlFor="email">
+                        <strong>password</strong>
+                    </label>
+                    <input
+                    type='password'
+                    placeholder=" Enter password"
+                    autoComplete="off"
+                    name="email"
+                    className="form-control rounded-0" />
+                    </div>
+                    <button type="submit" className="btn btn-success  w-100 rounded-0">
+                        Register
+                    </button>
+                    <p> Already have an </p>
+                    <button className="pk">
+                        Login
+                    </button>
                  </form>
             </div>
         </div>
-    )
+    );
 }
