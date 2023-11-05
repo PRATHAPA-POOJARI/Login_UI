@@ -1,5 +1,9 @@
 import { useState } from "react";
 function Signup() {
+    const [name,setName]=useState();
+    const [email,setEmail]=useState();
+    const [password,setPassword]=useState();
+    // const [name,setName]=useState();
     return (
         <div>
             <div className="bg-white p-3 rounded w-25">
