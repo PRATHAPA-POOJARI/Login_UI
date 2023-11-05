@@ -10,9 +10,8 @@ function App() {
   
     <BrowserRouter>
     <Routes>
-      <Route path='Register'>
-
-      </Route>
+      <Route path='/Register' element={<Signup/>}></Route>
+      <Route path='/login' element={<Login/>}></Route>
     </Routes>
     </BrowserRouter>
  
