@@ -19,7 +19,9 @@ function Signup() {
                     placeholder="Enter a name"
                     autoComplete="off"
                     name="email"
-                    className="form-control rounded-0" />
+                    className="form-control rounded-0" 
+                    onChange={(e)=>setName(e.target.value)}/>
+
                     </div>
 
                     <div className="mb-3">
@@ -31,7 +33,8 @@ function Signup() {
                     placeholder="Enter a name"
                     autoComplete="off"
                     name="email"
-                    className="form-control rounded-0" />
+                    className="form-control rounded-0" 
+                     onChange={(e)=>setEmail(e.target.value)}/>
                     </div>
                     <div className="mb-3">
                     <label htmlFor="email">
@@ -42,7 +45,8 @@ function Signup() {
                     placeholder=" Enter password"
                     autoComplete="off"
                     name="email"
-                    className="form-control rounded-0" />
+                    className="form-control rounded-0" 
+                     onChange={(e)=>setPassword(e.target.value)}/>
                     </div>
                     <button type="submit" className="btn btn-success  w-100 rounded-0">
                         Register
